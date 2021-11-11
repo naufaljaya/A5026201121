@@ -25,3 +25,8 @@ Route::get('isiannama', "ViewController@showForm");
 
 Route::post('greetings', "ViewController@resultGreetings");
 
+Route::get('uts', "ViewController@showUTS");
+
+Route::get('tugasphppangkat', "ViewController@showTugasPHP");
+
+Route::post('hasiltugasphp', "ViewController@resultTugasPHP");

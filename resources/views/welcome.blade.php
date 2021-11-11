@@ -91,8 +91,8 @@
                     <a href="clone_bukalapak">Praktikum 1</a>
                     <a href="tugas4">Tugas 4</a>
                     <a href="praktikum2">Praktikum 2</a>
-                    <a href="https://github.com/laravel/laravel">ETS</a>
-                    <a href="isiannama">Tugas PHP</a>
+                    <a href="uts">ETS</a>
+                    <a href="tugasphppangkat">Tugas PHP</a>
                 </div>
             </div>
         </div>
