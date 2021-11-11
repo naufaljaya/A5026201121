@@ -1,0 +1,213 @@
+<!-- Nama saya Muhammad Naufal Kusumajaya NRP 5026201121-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Fjalla+One|Libre+Baskerville"
+    />
+    <title>Demo</title>
+    <style>
+      body {
+        text-align: center;
+        background-image: url(imageedit_1_3719967458.png);
+        font-family: sans-serif;
+        color: #313131;
+      }
+      ul,
+      ol,
+      table {
+        text-align: left;
+        position: relative;
+        left: 400px;
+        bottom: 10px;
+        border-collapse: collapse;
+        z-index: 0;
+      }
+      th,
+      td {
+        padding-top: 5px;
+        padding-right: 20px;
+        padding-bottom: 5px;
+        padding-left: 10px;
+        background-color: antiquewhite;
+        text-align: left;
+        border: 2px solid white;
+      }
+      .profile {
+        height: 200px;
+        border-radius: 10%;
+      }
+      .sertifikat {
+        border-radius: 5%;
+      }
+      a:hover {
+        color: blue;
+        font-style: italic;
+      }
+      h1 {
+        font-size: 70px;
+      }
+      h1,
+      h2,
+      h3 {
+        font-family: "Fjalla One", sans-serif;
+      }
+      h2 {
+        font-size: 50px;
+      }
+      footer {
+        background-color: white;
+      }
+      button {
+        border: none;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        transition-duration: 0.4s;
+        cursor: pointer;
+        background-color: white;
+        color: pink;
+        border: 2px solid pink;
+      }
+      button:hover {
+        background-color: pink;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Halo Saya Naufal</h1>
+      <h2>Full Stack Developer</h2>
+    </header>
+    <figure>
+      <img
+        class="profile"
+        src="muhammad_naufal_k.jpg"
+        alt="Foto Naufal Background Merah"
+      />
+    </figure>
+    <hr />
+    <section>
+      <h2>Pengenalan</h2>
+      <p>
+        Halo &#128512; nama saya Muhammad Naufal Kusumajaya, saya adalah seorang
+        FullStack Developer<br />
+      </p>
+    </section>
+    <hr />
+    <section>
+      <h2>Pengalaman</h2>
+      <h3>Sebagai Full Stack Developer</h3>
+      <ul>
+        <li>2031-2034 di Blibli</li>
+        <li>2035-2040 di Google</li>
+      </ul>
+      <h3>Sebagai Backend Developer</h3>
+      <ol>
+        <li>2041-2045 di Google</li>
+        <li>
+          2045-2049 di
+          <abbr title="International Business Machines">IBM</abbr>
+        </li>
+      </ol>
+    </section>
+    <hr />
+    <section>
+      <h2>Sertifikat</h2>
+      <figure>
+        <img
+          class="sertifikat"
+          src="sertif_js_fcc.PNG"
+          alt="sertifikat JavaScript Algorithm & Data Structure FreeCodeCamp"
+        />
+        <figcaption>
+          Sertifikat yang saya dapatkan dari freeCodeCamp <br /><a
+            href="https://freecodecamp.org/certification/fcc1a37b0a2-b798-400f-a84f-897fa3719f79/javascript-algorithms-and-data-structures"
+            target="_blank"
+            >Klik disini untuk melihat sertifikat</a
+          >
+        </figcaption>
+      </figure>
+    </section>
+    <hr />
+    <section>
+      <h2>Hari Kerja Saya</h2>
+      <table>
+        <tr>
+          <th>Minggu</th>
+          <th>Senin</th>
+          <th>Selasa</th>
+          <th>Rabu</th>
+          <th>Kamis</th>
+          <th>Jumat</th>
+          <th>Sabtu</th>
+        </tr>
+        <tr>
+          <td>Libur</td>
+          <td>Kerja</td>
+          <td>Kerja</td>
+          <td>Kerja</td>
+          <td>Kerja</td>
+          <td>Kerja</td>
+          <td>Libur</td>
+        </tr>
+      </table>
+    </section>
+    <hr />
+    <section>
+      <h2>Komentar</h2>
+      <form>
+        <label for="komen">komen disini:</label>
+        <input
+          type="text"
+          id="komen"
+          name="komen"
+          placeholder="Tuliskan komentar anda"
+        />
+        <button type="submit">Submit</button>
+        <p>Apakah artikel ini bermanfaat</p>
+        <input
+          id="bermanfaat"
+          type="radio"
+          name="kemanfaatan"
+          value="bermanfaat"
+          checked
+        />
+        <label for="bermanfaat">Bermanfaat</label>
+        <input
+          id="tidak_yakin"
+          type="radio"
+          name="kemanfaatan"
+          value="tidak_yakin"
+        />
+        <label for="tidak_yakin">Tidak yakin</label>
+        <input
+          id="tidak_bermanfaat"
+          type="radio"
+          name="kemanfaatan"
+          value="tidak_bermanfaat"
+        />
+        <label for="tidak_bermanfaat">Tidak bermanfaat</label>
+
+        <p>Sebaiknya artikel ini dibaca oleh orang berumur</p>
+        <input id="<10" type="checkbox" name="usia" value="<10" />
+        <label for="<10"><10 </label>
+        <input id="10-17" type="checkbox" name="usia" value="10-17" />
+        <label for="10-17">10-17 </label>
+        <input id="17++" type="checkbox" name="usia" value="17++" />
+        <label for="17++">17++ </label>
+      </form>
+    </section>
+    <hr />
+    <hr />
+    <footer>
+      email: naufalkusumajaya@gmail.com ©2021 Muhammad Naufal Kusumajaya
+    </footer>
+  </body>
+</html>
