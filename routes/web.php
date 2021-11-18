@@ -30,3 +30,8 @@ Route::get('uts', "ViewController@showUTS");
 Route::get('tugasphppangkat', "ViewController@showTugasPHP");
 
 Route::post('hasiltugasphp', "ViewController@resultTugasPHP");
+
+//route CRUD
+Route::get('/pegawai','PegawaiController@index');
+Route::get('/pegawai/tambah','PegawaiController@tambah');
+Route::post('/pegawai/store','PegawaiController@store');
