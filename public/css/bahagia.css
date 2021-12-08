@@ -1,0 +1,87 @@
+/* Table style */
+table {
+    margin: 15px 0;
+    box-shadow: 0 0 5px gray;
+}
+thead tr {
+    background-color: #e31e52;
+    color: #ffffff;
+    text-align: left;
+}
+th,
+td {
+    padding: 12px 15px;
+}
+tbody tr {
+    border-bottom: 1px solid #e6e6e6;
+}
+tbody tr:nth-of-type(even) {
+    background-color: #e6e6e6;
+}
+
+/* Input style */
+form div {
+    margin: 10px 0;
+}
+
+/* link style */
+a {
+    text-decoration: underline;
+}
+/* Style tombol kembali*/
+p a {
+    background-color: #e31e52;
+    color: white;
+    padding: 0.5rem 0.5rem;
+    border-radius: 10%;
+    text-decoration: none;
+}
+p a:hover {
+    background-color: #e6e6e6;
+    text-decoration: none;
+}
+
+/* Classes */
+.font-default {
+    font-family: "Roboto", sans-serif;
+}
+.font-alt {
+    font-family: "Lora", serif;
+}
+.mb-1 {
+    margin-bottom: 1rem;
+}
+.mb-2 {
+    margin-bottom: 2rem;
+}
+.mb-3 {
+    margin-bottom: 4rem;
+}
+.mb-4 {
+    margin-bottom: 6rem;
+}
+.mt-2 {
+    margin-top: 2rem;
+}
+.padding-footer {
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+}
+.bg-gray {
+    background: #e6e6e6;
+}
+.bg-blue {
+    background-color: #e31e52;
+}
+.text-grey {
+    color: rgb(73, 73, 73);
+}
+
+/* Style sidebar */
+.sidebar-head {
+    background-color: #e31e52;
+    color: #ffffff;
+    margin: 0;
+    padding-top: 12px !important;
+    padding-bottom: 12px !important;
+}
