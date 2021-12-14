@@ -12,20 +12,21 @@
 	<form action="/absen/store" method="post">
 		{{ csrf_field() }}
         <div>
-            IDPegawai
-            <br>
-            <select name="idpegawai" id="">
-                @foreach($pegawai as $p)
-                <option value="{{ $p -> pegawai_id }}">{{ $p -> pegawai_nama }}</option>
-                @endforeach
-            </select>
+            <label for="idpegawai" class="col-sm-2 control-label">IDPegawai</label>
+            <div id="idpegawai">
+                <select class="form-control" name="idpegawai" id="">
+                    @foreach($pegawai as $p)
+                    <option value="{{ $p -> pegawai_id }}">{{ $p -> pegawai_nama }}</option>
+                    @endforeach
+                </select>
+            </div>
         </div>
         <br/>
 
         <div class="form-group">
-            <label for="dtpickerdemo" class="col-sm-2 control-label">Tanggal:</label>
-            <div class='col-sm-4 input-group date ' id='dtpickerdemo'>
-                <input type='text' class="form-control" name="tanggal" required="required" />
+            <label for="dtpickerdemo" class="col-sm-2 control-label">Tanggal :</label>
+            <div class='col-sm-4 input-group date' id='dtpickerdemo'>
+                <input type='datetime-local' class="form-control" name="tanggal" required="required" />
                 <span class="input-group-addon">
                     <span class="glyphicon glyphicon-calendar"></span>
                 </span>
@@ -42,20 +43,19 @@
             <label for="alpha">Alpha</label>
         </div>
         <div>
-            <p><input type="submit" value="Simpan Data"></p>
+            <p><input type="submit" class="btn btn-primary" value="Simpan Data"></p>
         </div>
 	</form>
 
 
-    <script type="text/javascript">
-        $(function () {
+    <script>
+        $(function() {
             $('#dtpickerdemo').datetimepicker({
                 format: 'YYYY-MM-DD hh:mm:ss',
-                showTodayButton:false,
-                locale: 'id',
-                'defaultDate': new Date()
+                showTodayButton: false,
+                locale : 'id',
+                "defaultDate": new Date()
             });
         });
     </script>
 @endsection
-<!-- Credit to Muhammad Arif Nuriman -->

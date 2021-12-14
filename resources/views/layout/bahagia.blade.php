@@ -27,10 +27,31 @@
         <a href="/pegawai" class="w3-bar-item w3-button">Pegawai</a>
         <a href="/absen" class="w3-bar-item w3-button">Absen</a>
         <a href="/pendapatan" class="w3-bar-item w3-button">Pendapatan</a>
+        <a href="/kertashvs" class="w3-bar-item w3-button">Praktikum 3</a>
+
     </div>
     <div id="main">
         <div class="w3-bar-block w3-card bg-blue">
             <button id="openNav" class="w3-button w3-xlarge bg-blue" onclick="sidebar_toggle()">&#9776;</button>
+        </div>
+        <div class="container text-center mb-1">
+            <div class="row mb-1 mt-2">
+                <div class="col-md-3 col-lg-3">
+                    <img src="{{URL::asset('/images/profile_pic.jpg')}}" alt="Foto" width="100">
+                </div>
+                <div class="col-md-9 col-lg-9">
+
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3 col-lg-3">
+                    NRP : 5026201021 <br>
+                    Nama : Muhammad Naufal Kusumajaya
+                </div>
+                <div class="col-md-9 col-lg-9">
+
+                </div>
+            </div>
         </div>
         <div class="container mb-3">
             <div class="text-center mb-4">

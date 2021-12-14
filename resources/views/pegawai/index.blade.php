@@ -9,7 +9,12 @@
 
 	<br/>
 	<br/>
-
+    <div class="container" align="center">
+		<form action="/pegawai/cari" method="GET">
+			<input type="text" class="form-control" name="cari" placeholder="Cari Pegawai berdasarkan nama atau alamat .." value="{{ old('cari') }}">
+			<input type="submit" class="btn btn-default" value="CARI">
+		</form>
+	</div>
 	<table>
         <thead>
             <tr>
@@ -31,10 +36,14 @@
                     <a href="/pegawai/edit/{{ $p->pegawai_id }}">Edit</a>
                     |
                     <a href="/pegawai/hapus/{{ $p->pegawai_id }}">Hapus</a>
+                    |
+                    <a href="/pegawai/view/{{ $p->pegawai_id }}">View Detail</a>
                 </td>
             </tr>
             @endforeach
+
         </tbody>
 	</table>
+    {{ $pegawai->links() }}
 @endsection
 <!-- Credit to Muhammad Arif Nuriman -->
