@@ -40,4 +40,4 @@ function rupiah($angka){
         </table>
 	@endforeach
 @endsection
-<!-- Credit to Muhammad Arif Nuriman -->
+
