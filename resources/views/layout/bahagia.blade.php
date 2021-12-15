@@ -39,7 +39,7 @@
             <div class="row mb-1 mt-2">
                 <div class="col-md-3 col-lg-3">
                     <img src="{{URL::asset('/images/profile_pic.jpg')}}" alt="Foto" width="100">
-                </div>
+                </div >
                 <div class="col-md-9 col-lg-9">
 
                 </div>
