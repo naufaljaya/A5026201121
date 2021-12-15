@@ -76,3 +76,12 @@ Route::post('/kertashvs/update','KertashvsController@update');
 Route::get('/kertashvs/hapus/{id}','KertashvsController@hapus');
 Route::get('/kertashvs/cari','KertashvsController@cari');
 Route::get('/kertashvs/view/{id}','KertashvsController@detail');
+
+//route karyawan1
+Route::get('/karyawan1','Karyawan1Controller@index');
+Route::get('/karyawan1/tambah','Karyawan1Controller@tambah');
+Route::post('/karyawan1/store','Karyawan1Controller@store');
+Route::get('/karyawan1/edit/{id}','Karyawan1Controller@edit');
+Route::post('/karyawan1/update','Karyawan1Controller@update');
+Route::get('/karyawan1/hapus/{id}','Karyawan1Controller@hapus');
+Route::get('/karyawan1/view/{id}','Karyawan1Controller@detail');

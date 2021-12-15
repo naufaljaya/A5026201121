@@ -28,6 +28,7 @@
         <a href="/absen" class="w3-bar-item w3-button">Absen</a>
         <a href="/pendapatan" class="w3-bar-item w3-button">Pendapatan</a>
         <a href="/kertashvs" class="w3-bar-item w3-button">Praktikum 3</a>
+        <a href="/karyawan1" class="w3-bar-item w3-button">EAS</a>
 
     </div>
     <div id="main">
