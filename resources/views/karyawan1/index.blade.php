@@ -1,3 +1,12 @@
+<?php
+function rupiah($angka){
+
+	$hasil_rupiah = "Rp " . number_format($angka,2,',','.');
+	return $hasil_rupiah;
+
+}
+?>
+
 @extends('layout.bahagia')
 
 @section('title', 'EAS')
@@ -25,7 +34,7 @@
                 <td>{{ $p->NIP }}</td>
                 <td>{{ $p->Nama }}</td>
                 <td>{{ $p->Pangkat }}</td>
-                <td>{{ $p->Gaji }}</td>
+                <td><?= rupiah( $p->Gaji )?></td>
                 <td>
                     <a href="/karyawan1/edit/{{ $p->NIP }}">Edit</a>
                     |

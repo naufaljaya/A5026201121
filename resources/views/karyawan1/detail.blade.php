@@ -1,3 +1,11 @@
+<?php
+function rupiah($angka){
+
+	$hasil_rupiah = "Rp " . number_format($angka,2,',','.');
+	return $hasil_rupiah;
+
+}
+?>
 @extends('layout.bahagia')
 
 @section('title', 'EAS')
@@ -26,7 +34,7 @@
             </tr>
             <tr>
                 <td style="padding:10px;">Gaji</td>
-                <td style="padding:10px;">{{ $p->Gaji }}</td>
+                <td style="padding:10px;"><?= rupiah( $p->Gaji )?></td>
             </tr>
 
         </table>
